@@ -8,3 +8,13 @@ C:\Users\deyas\Desktop\ROR2\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.exe.manife
 C:\Users\deyas\Desktop\ROR2\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.application
 C:\Users\deyas\Desktop\ROR2\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.exe.manifest
 C:\Users\deyas\Desktop\ROR2\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.application
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.exe.config
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.exe.manifest
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.application
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.exe
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\bin\Debug\RiskofRain2Wiki.pdb
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.csprojAssemblyReference.cache
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.exe.manifest
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.application
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.exe
+C:\Users\deyas\Documents\GitHub\RoR2Dictionary\RiskofRain2Wiki\obj\Debug\RiskofRain2Wiki.pdb

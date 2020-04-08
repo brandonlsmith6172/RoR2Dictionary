@@ -90,8 +90,16 @@ namespace RiskofRain2Wiki
                 }
                 else if (choice == "items")
                 {
-                    Console.WriteLine("Type the item you wish you see information on.");
-                    items.ItemList();
+                    Console.WriteLine("To see all items, type ALL. To see common, uncommon, rare, boss, or lunar items specifically, please identify which one.");
+                    items.CommonItemList();
+                    Console.WriteLine();
+                    items.UncommonItemList();
+                    Console.WriteLine();
+                    items.RareItemList();
+                    Console.WriteLine();
+                    items.BossItemList();
+                    Console.WriteLine();
+                    items.LunarItemList();
                     Console.WriteLine();
                     choice = Console.ReadLine().ToLower();
                     switch (choice)

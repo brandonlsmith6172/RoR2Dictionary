@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RiskofRain2Wiki.exe" size="14304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RiskofRain2Wiki.exe" size="17376">
       <assemblyIdentity name="RiskofRain2Wiki" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BmisMOsOuqPnIVA7qp0OI+BETrZ06dSsUFACckZP5Og=</dsig:DigestValue>
+        <dsig:DigestValue>wG8a1J+/bNYCumDLwsyT+EGiFpvHHgnEeErFACaVv3E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

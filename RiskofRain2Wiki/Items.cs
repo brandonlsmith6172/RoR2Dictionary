@@ -8,13 +8,49 @@ namespace RiskofRain2Wiki
 {
     class Items
     {
-        public void ItemList()
+        public void CommonItemList()
         {
-            List<string> Items = new List<string>();
-            foreach (string item in new string[3] { "Tougher Times", "Soldiers Syringe", "Crowbar" })
+            List<string> CommonItems = new List<string>();
+            foreach (string item in new string[] { "Tougher Times", "Soldiers Syringe", "Crowbar", "Monster Tooth", "Lens-Maker's Glasses", "Paul's Goat Hoof", "Bustling Fungus", "Tri-Tip Dagger", "War Banner", "Cautious Slug", "Personal Shield Generator", "MedKit", "Gasoline", "Stun Grenade", "Bundle of Fireworks", "Energy Drink", "Backup Magazine", "Sticky Bomb", "Rusted Key", "Armor-Piercing Rounds", "Topaz Brooch", "Focus Crystal", "Fresh Meat" })
             {
-                Items.Add(item);
-                Console.Write(item + ", ");
+                CommonItems.Add(item);
+                Console.WriteLine(item);
+            }
+        }
+        public void UncommonItemList()
+        {
+            List<string> UncommonItems = new List<string>();
+            foreach (string item in new string[] { "AtG Missile Mk. 1", "Will-o'-the-wisp", "Hoopoo Feather", "Ukelele", "Leeching Seed", "Predatory Insincts", "Red Whip", "Old War Stealthkit", "Harvester's Scythe", "Fuel Cell", "Infusion", "Bandolier", "Berzerker's Pauldron", "Rose Buckler", "Runald's Band", "Kjaro's Band", "Chronobauble", "Wax Quail", "Old Guillotine", "War Horn" })
+            {
+                UncommonItems.Add(item);
+                Console.WriteLine(item);
+            }
+        }
+        public void RareItemList()
+        {
+            List<string> RareItems = new List<string>();
+            foreach (string item in new string[] { "Aegis", "Brilliant behemoth", "Ceremonial Dagger", "Frost Relic", "Happiest Mask", "H3AD-5T v2(headset)", "N'Kuhana's Opinion", "Unstable Tesla Coil", "57 Leaf Clover", "Sentient Meat Hook", "Alien Head", "Soulbound Catalyst", "Dio's Best Friend", "Hardlight Afterburner", "Wake of Vultures", "Brainstalks", "Rejuvenation Rack", "Shattering Justice" })
+            {
+                RareItems.Add(item);
+                Console.WriteLine(item);
+            }
+        }
+        public void BossItemList()
+        {
+            List<string> BossItems = new List<string>();
+            foreach (string item in new string[] { "Titanic Knurl", "Queen's Gland", "Halcyon Seed", "Little Disciple", "Genesis Loop" })
+            {
+                BossItems.Add(item);
+                Console.WriteLine(item);
+            }
+        }
+        public void LunarItemList()
+        { 
+            List<string> LunarItems = new List<string>();
+            foreach (string item in new string[] { "Shaped Glass", "Brittle Crown", "Transcendence", "Corpsebloom", "Gestures of the Drowned", "Strides of Heresy", "Beads of Fealty", "Visions of Heresy" })
+            {
+                LunarItems.Add(item);
+                Console.WriteLine(item);
             }
         }
         public void TougherTimes()
@@ -89,7 +125,7 @@ namespace RiskofRain2Wiki
                 bool tf = int.TryParse(choice, out number);
                 if (tf == true)
                 {
-                    double damage = 150 + (50 * (number-1));
+                    double damage = 150 + (50 * (number - 1));
                     Console.WriteLine(damage + "%");
                     Console.ReadLine();
                     Console.Clear();
@@ -105,5 +141,7 @@ namespace RiskofRain2Wiki
                 }
             }
         }
+        //public void MonsterTooth()
+        //public
     }
 }
